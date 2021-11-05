@@ -1,0 +1,44 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
+	grid-template-rows: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
+	grid-template-areas: 
+						"red . . . . . . ."
+						"orange orange . . . . . ."
+						"yellow yellow yellow . . . . ."
+						"green green green green . . . ."
+						"cyan cyan cyan cyan cyan . . ."
+						"blue blue blue blue blue blue . ."
+						"violet violet violet violet violet violet violet ."
+						"purple purple purple purple purple purple purple purple";
+grid-gap: 0px;
+
+margin: 10px auto;
+position: relative;
+width: calc(100%-10px);
+max-width: 1800px;
+min-height: 90vh;
+
+background: #808080;
+border-radius: 5px;
+box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0);}
+
+#black {grid-row-start: 1; grid-row-end: 9; grid-column-start: 1; grid-column-end: 9; background-color: black;}
+
+#white {grid-row-start: 2; grid-row-end: 8; grid-column-start: 2; grid-column-end: 8; background-color: white;}
+
+#red {grid-area: red; background-color: red;}
+
+#orange {grid-area: orange; background-color: orange;}
+
+#yellow {grid-area: yellow; background-color: yellow;}
+
+#green {grid-area: green; background-color: green;}
+
+#cyan {grid-area: cyan; background-color: cyan;}
+
+#blue {grid-area: blue; background-color: blue;}
+
+#violet {grid-area: violet; background-color: violet;}
+
+#purple {grid-area: purple; background-color: purple;}
