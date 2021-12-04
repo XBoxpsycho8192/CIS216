@@ -25,7 +25,7 @@ nav{grid-area: nav;
 	margin: 0;
 	font-weight: bold;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 	float: left;
 }
 
@@ -74,7 +74,7 @@ footer{grid-area: footer;
 /*not apart of grid format*/
 body {color: #221811;
 	font-family: Verdana, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	background-image: url(images/background.png);}
 
 img {padding-left: 10px;
@@ -87,7 +87,8 @@ nav a:hover { color: #85F463; }
 nav ul { list-style-type: none;}
 nav a {text-decoration: none;}
 
-main ul {font-weight: bold;}
+main ul {font-weight: bold;
+		font-size: 18px;}
 
 #content-table { width: 75%; 
 		margin: auto;
@@ -99,6 +100,9 @@ tr:nth-of-type(odd) {background-color: #B5F6E7;}
 
 main h2,main h3,main h4{text-align: center;
 				background-color: #15A785;}
+
+footer a{text-decoration: none;
+		color: black;}
 
 iframe{margin: auto;
  	display: block; 
@@ -140,7 +144,7 @@ iframe{margin: auto;
 	width: calc(100%-10px);
 	max-width: 99vw;
 	min-height: 99vh;
-	background-color: #B5F6E7;
+	background-color: #C4F6B5;
 	border-radius: 5px;}
 
 nav{grid-area: nav;
@@ -148,7 +152,7 @@ nav{grid-area: nav;
 	margin: 0;
 	font-weight: bold;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 	float: left;
 }
 
@@ -162,7 +166,7 @@ header{ grid-area: header;
 
 main{ grid-area: main; 
 	padding: 0 1em;
-	background-color: #B5F6E7 }
+	background-color: #C4F6B5 }
 
 aside{padding: 5px;}
 aside.left {grid-area: left;}
@@ -197,19 +201,20 @@ footer{grid-area: footer;
 body {background-color: #b89e81;
 	color: #221811;
 	font-family: Verdana, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	background-image: url(images/background.png);}
 img {padding-left: 10px;
 	padding-right: 10px;}
 
 /*extra cosmetic*/
-nav a:link { color: #C4F6B5; }
+nav a:link { color: #15A785; }
 nav a:visited { color: #256E0F; }
-nav a:hover { color: #15A785; }
+nav a:hover { color: #85F463; }
 nav ul { list-style-type: none;}
 nav a {text-decoration: none;}
 
-main ul {font-weight: bold;}
+main ul {font-weight: bold;
+		font-size: 18px;}
 
 #content-table { width: 75%; 
 		margin: auto;
@@ -217,10 +222,13 @@ main ul {font-weight: bold;}
 
 td, th { padding: 0px;
 		 border-style: none; }
-tr:nth-of-type(odd) {background-color: #C4F6B5;}
+tr:nth-of-type(odd) {background-color: #B5F6E7;}
 
 main h2,main h3,main h4{text-align: center;
-				background-color: #37a715;}
+				background-color: #15A785;}
+
+footer a{text-decoration: none;
+		color: black;}
 
 iframe{margin: auto;
  	display: block; 
