@@ -26,8 +26,7 @@ nav{grid-area: nav;
 	font-weight: bold;
 	text-align: center;
 	font-size: 2em;
-	float: left;
-}
+	float: left;}
 
 header{ grid-area: header;
 	margin: 0px;
@@ -116,13 +115,7 @@ iframe{margin: auto;
     display: inline-block;
     margin: auto;
     padding: 2px;}
-
-/*good contrast color:#15A785(cyan) & #C4F6B5(mint green) & #37a715(xbox green) */
 }
-
-
-
-
 
 
 @media screen and (max-width:650px) {
@@ -153,8 +146,7 @@ nav{grid-area: nav;
 	font-weight: bold;
 	text-align: center;
 	font-size: 2em;
-	float: left;
-}
+	float: left;}
 
 header{ grid-area: header;
 	margin: 0px;
@@ -243,6 +235,4 @@ iframe{margin: auto;
     display: inline-block;
     margin: auto;
     padding: 2px;}
-
-/*good contrast color:#15A785(cyan) & #C4F6B5(mint green) & #37a715(xbox green) & #B5F6E7(light blue)*/
 }
