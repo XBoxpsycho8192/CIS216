@@ -1,0 +1,238 @@
+@media screen and (min-width:651px) {
+/*grid layout stuff*/
+#page {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: auto auto auto 1fr auto;
+	grid-template-areas:
+			"header header header"
+			"img img img"
+			"nav nav nav"
+			"main main main"
+			"footer footer footer";
+
+	grid-gap: 0px;
+	margin: 3px auto;
+	position: relative;
+	width: calc(100%-10px);
+	max-width: 90vw;
+	min-height: 90vh;
+	background-color: #C4F6B5;
+	border-radius: 5px;}
+
+nav{grid-area: nav;
+	padding: 5px 1em;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	float: left;
+}
+
+header{ grid-area: header;
+	margin: 0px;
+	padding:2em;
+	text-align: center;
+	background-color: #37a715;
+	background-image: url(images/xboxlogo.jpg); 
+	background-position: left;
+	background-repeat: no-repeat; }
+
+main{ grid-area: main; 
+	padding: 0 1em;
+	background-color: #C4F6B5 }
+
+aside{padding: 5px;}
+aside.left {grid-area: left;}
+aside.right {grid-area: right;}
+
+footer{grid-area: footer;
+	margin: 0;
+	padding: 1em 0;
+	background-color: #15A73C;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;}
+
+#xboxwallpaper { background-image: url(images/xboxwallpaper.jpg);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+#xbox { background-image: url(images/xbox.png);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+#xbox360 { background-image: url(images/xbox360.jpg);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+#xboxone { background-image: url(images/xboxone.jpg);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+
+/*not apart of grid format*/
+body {color: #221811;
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url(images/background.png);}
+
+img {padding-left: 10px;
+	padding-right: 10px;}
+
+/*extra cosmetic*/
+nav a:link { color: #15A785; }
+nav a:visited { color: #256E0F; }
+nav a:hover { color: #85F463; }
+nav ul { list-style-type: none;}
+nav a {text-decoration: none;}
+
+main ul {font-weight: bold;}
+
+#content-table { width: 75%; 
+		margin: auto;
+		border-spacing: 0px;}
+
+td, th { padding: 0px;
+		 border-style: none; }
+tr:nth-of-type(odd) {background-color: #B5F6E7;}
+
+main h2,main h3,main h4{text-align: center;
+				background-color: #15A785;}
+
+iframe{margin: auto;
+ 	display: block; 
+ 	text-align: center;
+ 	padding-bottom: 10px;}
+
+
+.container {
+    text-align: center;}
+.container ul {
+    display: inline-block;
+    margin: auto;
+    padding: 2px;}
+
+/*good contrast color:#15A785(cyan) & #C4F6B5(mint green) & #37a715(xbox green) */
+}
+
+
+
+
+
+
+@media screen and (max-width:650px) {
+/*grid layout stuff*/
+#page {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: auto auto auto 1fr auto;
+	grid-template-areas:
+			"header header header"
+			"img img img"
+			"nav nav nav"
+			"main main main"
+			"footer footer footer";
+
+	grid-gap: 0px;
+	margin: 3px auto;
+	position: relative;
+	width: calc(100%-10px);
+	max-width: 99vw;
+	min-height: 99vh;
+	background-color: #B5F6E7;
+	border-radius: 5px;}
+
+nav{grid-area: nav;
+	padding: 5px 1em;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	float: left;
+}
+
+header{ grid-area: header;
+	margin: 0px;
+	padding:2em;
+	text-align: center;
+	background-color: #37a715; 
+	background-position: left;
+	background-repeat: no-repeat; }
+
+main{ grid-area: main; 
+	padding: 0 1em;
+	background-color: #B5F6E7 }
+
+aside{padding: 5px;}
+aside.left {grid-area: left;}
+aside.right {grid-area: right;}
+
+footer{grid-area: footer;
+	margin: 0;
+	padding: 1em 0;
+	background-color: #15A73C;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;}
+
+#xboxwallpaper { background-image: url(images/xboxwallpaper.jpg);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+#xbox { background-image: url(images/xbox.png);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+#xbox360 { background-image: url(images/xbox360.jpg);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+#xboxone { background-image: url(images/xboxone.jpg);
+			background-size: 100% 100%;
+			height: 250px;
+			grid-area: img;}
+
+/*not apart of grid format*/
+body {background-color: #b89e81;
+	color: #221811;
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url(images/background.png);}
+img {padding-left: 10px;
+	padding-right: 10px;}
+
+/*extra cosmetic*/
+nav a:link { color: #15A785; }
+nav a:visited { color: #256E0F; }
+nav a:hover { color: #85F463; }
+nav ul { list-style-type: none;}
+nav a {text-decoration: none;}
+
+main ul {font-weight: bold;}
+
+#content-table { width: 75%; 
+		margin: auto;
+		border-spacing: 0px;}
+
+td, th { padding: 0px;
+		 border-style: none; }
+tr:nth-of-type(odd) {background-color: #C4F6B5;}
+
+main h2,main h3,main h4{text-align: center;
+				background-color: #37a715;}
+
+iframe{margin: auto;
+ 	display: block; 
+ 	text-align: center;
+ 	padding-bottom: 10px;
+ 	max-width: 200px;
+ 	max-height: 100px;}
+
+.container {
+    text-align: center;}
+.container ul {
+    display: inline-block;
+    margin: auto;
+    padding: 2px;}
+
+/*good contrast color:#15A785(cyan) & #C4F6B5(mint green) & #37a715(xbox green) & #B5F6E7(light blue)*/
+}
