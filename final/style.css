@@ -203,9 +203,9 @@ img {padding-left: 10px;
 	padding-right: 10px;}
 
 /*extra cosmetic*/
-nav a:link { color: #15A785; }
+nav a:link { color: #C4F6B5; }
 nav a:visited { color: #256E0F; }
-nav a:hover { color: #85F463; }
+nav a:hover { color: #15A785; }
 nav ul { list-style-type: none;}
 nav a {text-decoration: none;}
 
